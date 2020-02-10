@@ -21,7 +21,7 @@ def home():
 
 @app.route("/profile")
 def profile():
-    return render_template("profile.html",date=format_date_joined(10,1998,6))
+    return render_template("profile.html",date=format_date_joined(3,1999,9))
 
 @app.route('/about/')
 def about():

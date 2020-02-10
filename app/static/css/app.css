@@ -29,6 +29,7 @@ body {
 }
 .holder{
     text-align: center;
+    color: white;
 }
 #bar{
     display: flex;
@@ -36,7 +37,7 @@ body {
     
 }
 #bar div{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 1%;
     width: 20%;
 }
@@ -56,6 +57,7 @@ body {
     height: 80%;
     text-align: center;
     padding: 2%;
+    color: white;
 }
 .holder-info{
     padding: 2%;
